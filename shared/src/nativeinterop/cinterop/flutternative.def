@@ -1,0 +1,8 @@
+headers = FlutterChannels.h FlutterBinaryMessenger.h FlutterMacros.h  FlutterCallbackCache.h
+#headers = Flutter.h
+language = Objective-C
+package = io.flutter.flutter
+#compilerOpts = -framework Flutter
+#linkerOpts = -framework Flutter -F /Users/kweku/StudioProjects/lifebyequipe/ios/Flutter
+
+

@@ -1,0 +1,15 @@
+
+CREATE TABLE Message (
+    Id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    MessageId INTEGER NOT NULL,
+    Title TEXT NOT NULL,
+    Message TEXT NOT NULL
+);
+
+selectAllMessages:
+SELECT MessageId, Title, Message
+FROM Message;
+
+insertMessage:
+INSERT INTO Message(MessageId, Title, Message)
+VALUES(?, ?, ?);

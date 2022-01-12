@@ -1,0 +1,23 @@
+PODS:
+  - shared (1.0)
+  - SwiftProtobuf (1.15.0)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+  - SwiftProtobuf (~> 1.15.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  shared: b59d5063ca8950414959f9bbcbf2e1a59f2a4b7e
+  SwiftProtobuf: 3320217e9d8fb75f36b40282e78c482640fd75dd
+
+PODFILE CHECKSUM: d2fdad7b76b1aa07204b41661ebf14eb89337747
+
+COCOAPODS: 1.11.0
